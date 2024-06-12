@@ -47,13 +47,13 @@ sliderBiru.addEventListener("input", function () {
   document.body.style.backgroundColor = `rgb(${r},${g},${b})`;
 });
 
-document.body.addEventListener("mousemove", function (e) {
-  // posisi mouser
-  // console.log(e.clientX);
-  // console.log(window.innerWidth);
-  const posisiX = Math.round((e.clientX / window.innerWidth) * 255);
+// document.body.addEventListener("mousemove", function (e) {
+//   // posisi mouser
+//   // console.log(e.clientX);
+//   // console.log(window.innerWidth);
+//   const posisiX = Math.round((e.clientX / window.innerWidth) * 255);
 
-  const posisiY = Math.round((e.clientX / window.innerHeight) * 255);
+//   const posisiY = Math.round((e.clientX / window.innerHeight) * 255);
 
-  document.body.style.backgroundColor = `rgb(${posisiX},${posisiY},100)`;
-});
+//   document.body.style.backgroundColor = `rgb(${posisiX},${posisiY},100)`;
+// });
